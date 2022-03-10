@@ -2,8 +2,8 @@ import { v4 as uuidv4 } from 'uuid';
 import flags from '../../data/Flags';
 
 const LIST_REGIONS_AND_TOTALS = 'COVID_19/REGIONS/LIST_REGIONS_AND_TOTALS';
-const ORDER_REGIONS_BY_TODAYS_MOST_CONFIRMED = 'COVID_19/REGIONS/ORDER_REGIONS_BY_TODAYS_MOST_CONFIRMED';
 const ORDER_REGIONS_BY_TODAYS_MOST_DEATHS = 'COVID_19/REGIONS/ORDER_REGIONS_BY_TODAYS_MOST_DEATHS';
+const ORDER_REGIONS_BY_TODAYS_MOST_CONFIRMED = 'COVID_19/REGIONS/ORDER_REGIONS_BY_TODAYS_MOST_CONFIRMED';
 
 const initialState = {
   totals: {},
@@ -63,7 +63,7 @@ const listRegions = (payload) => ({
 const getRegionsAndTotals = async () => {
   const API_URL = 'https://api.covid19tracking.narrativa.com/api/2022-03-06/country/chile';
   const RESPONSE = await fetch(API_URL);
-  if (await RESPONSE.ok) {
+  try {
     const DATA = await RESPONSE.json();
     const regions = [];
 
@@ -104,11 +104,19 @@ const getRegionsAndTotals = async () => {
       },
     };
     return returnData;
+  } catch (e) {
+    return [];
   }
-  return [];
 };
 
 export default reducer;
 export {
-  getRegionsAndTotals, listRegions, orderRegionsByTodaysConfirmed, orderRegionsByTodaysDeaths,
+  listRegions,
+  initialState,
+  getRegionsAndTotals,
+  LIST_REGIONS_AND_TOTALS,
+  orderRegionsByTodaysDeaths,
+  orderRegionsByTodaysConfirmed,
+  ORDER_REGIONS_BY_TODAYS_MOST_DEATHS,
+  ORDER_REGIONS_BY_TODAYS_MOST_CONFIRMED,
 };
