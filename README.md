@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Covid 19 Monitor
 
-## Available Scripts
+> Project that showcases Rockets and missions from the SpaceX API, the user can reserve Rockets and join Missions, and save them in his profile.
 
-In the project directory, you can run:
+![screenshot](./space_travelers.png)
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- JavaScript, CSS
+- React, Redux
+- Webpack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Live Demo
 
-### `npm test`
+Check the live demo for this project [here](https://cosmos-travelers-hub.netlify.app/).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To get a local copy up and running follow these simple example steps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You need to be able to use Node Package Manager, or also called, the `npm` command.
+If you dont have it, install it with these commands in the CLI (for Linux):
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -`
 
-### `npm run eject`
+`sudo apt install nodejs`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Then, run this command in the CLI:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`npm --version`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+If the previous command prints a single line with a version number on screen, `npm` was installed.
+### Install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+First you need to clone the repository into the folder of your choice with this command:
 
-## Learn More
+`git clone https://github.com/Yothu/covid-19-monitor.git`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Then go inside the repository foler with this command:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`cd covid-19-monitor`
 
-### Code Splitting
+After you are inside, download the `npm` dependecies with this command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+`npm install`
 
-### Analyzing the Bundle Size
+Finally, show the project through the browser with this command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+`npm start`
 
-### Making a Progressive Web App
+### Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
++ Once in the browser, you will see the **Rockets page**, in it you can click on the *Reserve Rocket* button to reserve a rocket, once a rocket is reserved, you can click on the *Cancel Reservation* button to cancel the reservation of the selected rocket.
++ Once you click on missions in the header you will be in the **Missions page**, in it you can click on the *Join Mission* button to join a mission,then you can click on the *Leave Mission* button to leave joined mission.
++ If you click on My Profile in the header you will be in your **Profile page**, there you will se the Rockets that you have reserved and the missions that you have joined.
 
-### Advanced Configuration
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+👤 David Vergaray
 
-### Deployment
+- GitHub:   [@Yothu](https://github.com/Yothu)
+- Twiter:   [@Daivhy](https://twitter.com/Daivhy)
+- LinkedIn: [David Vergaray](https://www.linkedin.com/in/david-vergaray-almontes-051a11127/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.
+
+## Show your support
+
+Give a ⭐️ if you like this project!
