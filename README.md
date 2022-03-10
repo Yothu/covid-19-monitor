@@ -2,9 +2,11 @@
 
 # Covid 19 Monitor
 
-> Project that showcases Rockets and missions from the SpaceX API, the user can reserve Rockets and join Missions, and save them in his profile.
+> Web page that shows the covid statistics of the country of Chile, all the confirmed cases, the deaths and also the daily statistics.
+> It also shows the covid statistics of each region of the country, and its flag.
+> This is the capstone project for the third Microverse module, React and Redux.
 
-![screenshot](./space_travelers.png)
+![screenshot](./covid-project.png)
 
 ## Built With
 
@@ -22,7 +24,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-You need to be able to use Node Package Manager, or also called, the `npm` command.
+You need to be able to use **Node Package Manager**, or also called, the `npm` command.
 If you dont have it, install it with these commands in the CLI (for Linux):
 
 `curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -`
@@ -54,9 +56,9 @@ Finally, show the project through the browser with this command:
 
 ### Usage
 
-+ Once in the browser, you will see the **Rockets page**, in it you can click on the *Reserve Rocket* button to reserve a rocket, once a rocket is reserved, you can click on the *Cancel Reservation* button to cancel the reservation of the selected rocket.
-+ Once you click on missions in the header you will be in the **Missions page**, in it you can click on the *Join Mission* button to join a mission,then you can click on the *Leave Mission* button to leave joined mission.
-+ If you click on My Profile in the header you will be in your **Profile page**, there you will se the Rockets that you have reserved and the missions that you have joined.
++ Once in the browser, you will see the **Home page**, in it you will see two sections, the *country section* and the *regions section*, in the first one you will se the map of the country the covid app is based in, and also its covid statistics. On the *regions section* you will see all the regions of the country listed, you can filter them by today's `confirmed` cases and `deaths`.
++ Once you click on a region you will be redirected to the **details page**, in it there are the covid statistics of that region, showing the region's flag, and statistics.
++ You can press the left arrow in the header to go back to the **Home page**.
 
 ## Author
 
