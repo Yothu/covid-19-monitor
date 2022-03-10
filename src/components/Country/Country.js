@@ -57,20 +57,20 @@ const Country = () => {
       <CountryDataContainer>
         <CountryName>{totals.name}</CountryName>
         <MainData>
-          {totals.confirmed}
-          <Small>confirmed</Small>
-        </MainData>
-        <MainData>
-          {totals.deaths}
-          <Small>deaths</Small>
-        </MainData>
-        <MainData>
           {totals.todayDeaths}
           <Small>new confirmed</Small>
         </MainData>
         <MainData>
           {totals.todayConfirmed}
           <Small>new deaths</Small>
+        </MainData>
+        <MainData>
+          {totals.deaths}
+          <Small>deaths</Small>
+        </MainData>
+        <MainData>
+          {totals.confirmed}
+          <Small>confirmed</Small>
         </MainData>
       </CountryDataContainer>
     </MainStats>

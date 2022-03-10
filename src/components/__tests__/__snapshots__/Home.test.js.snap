@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page tests it renders correctly 1`] = `
+<div
+  className="sc-ksdxgE gagolF"
+>
+  <section
+    className="sc-bdvvtL jsqFpi"
+  >
+    <div
+      className="sc-gsDKAQ YHamg"
+    >
+      <img
+        alt="chile-silhouette"
+        src="chile-silhouette.svg"
+        style={
+          Object {
+            "filter": "invert(100)",
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+    <div
+      className="sc-dkPtRN fASbqE"
+    >
+      <h2
+        className="sc-hKwDye felzUJ"
+      />
+      <p
+        className="sc-eCImPb ehWAiM"
+      >
+        <span
+          className="sc-jRQBWg iHFUri"
+        >
+          new confirmed
+        </span>
+      </p>
+      <p
+        className="sc-eCImPb ehWAiM"
+      >
+        <span
+          className="sc-jRQBWg iHFUri"
+        >
+          new deaths
+        </span>
+      </p>
+      <p
+        className="sc-eCImPb ehWAiM"
+      >
+        <span
+          className="sc-jRQBWg iHFUri"
+        >
+          deaths
+        </span>
+      </p>
+      <p
+        className="sc-eCImPb ehWAiM"
+      >
+        <span
+          className="sc-jRQBWg iHFUri"
+        >
+          confirmed
+        </span>
+      </p>
+    </div>
+  </section>
+  <section
+    className="sc-kDTinF eKdzuN"
+  >
+    <div
+      className="sc-iqseJM fcRNMj"
+    >
+      Stats by Region
+      <div
+        className="sc-egiyK rWYOo"
+      >
+        Filtered by:
+      </div>
+    </div>
+    <ul
+      className="sc-crHmcD KbYQv"
+    />
+  </section>
+</div>
+`;
