@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@font-face {
+  font-family: 'Gill Sans';
+  src:
+    local('Gill Sans'),
+    local('GillSans'),
+    url('fonts/GillSans/GillSans.woff2') format('woff2'),
+    url('fonts/GillSans/GillSans.woff') format('woff'),
+    url('fonts/GillSans/GillSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gill Sans';
+  src:
+    local('Gill Sans Bold'),
+    local('GillSans-Bold'),
+    url('fonts/GillSans/GillSans-Bold.woff2') format('woff2'),
+    url('fonts/GillSans/GillSans-Bold.woff') format('woff'),
+    url('fonts/GillSans/GillSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
