@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-Check the live demo for this project [here](https://cosmos-travelers-hub.netlify.app/).
+Check the live demo for this project [here](https://covid-19-monitor2.netlify.app/).
 
 ## Getting Started
 
