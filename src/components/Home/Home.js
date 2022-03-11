@@ -5,9 +5,7 @@ import { getRegionsAndTotals, listRegions } from '../../redux/regions/regions';
 import Country from '../Country/Country';
 import Regions from '../Regions/Regions';
 
-const Container = styled.div`
-  
-`;
+const Container = styled.div``;
 
 const Home = () => {
   const dispatch = useDispatch();

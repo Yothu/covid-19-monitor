@@ -62,7 +62,6 @@ const Header = () => {
       <Nav>
         <Back>
           <Link to="/"><BackIcon /></Link>
-          {/* <Year>2022</Year> */}
         </Back>
         <Link to="/" style={TitleStyle}>Daily Covid-19</Link>
         <Options>

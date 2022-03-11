@@ -10,9 +10,7 @@ const MainStats = styled.section`
   background-color: #5687e3;
 `;
 
-const CountryImageContainer = styled.div`
-
-`;
+const CountryImageContainer = styled.div``;
 
 const CountryDataContainer = styled.div`
   display: flex;
@@ -58,15 +56,15 @@ const Country = () => {
         <CountryName>{totals.name}</CountryName>
         <MainData>
           {totals.todayDeaths}
-          <Small>new confirmed</Small>
-        </MainData>
-        <MainData>
-          {totals.todayConfirmed}
           <Small>new deaths</Small>
         </MainData>
         <MainData>
           {totals.deaths}
           <Small>deaths</Small>
+        </MainData>
+        <MainData>
+          {totals.todayConfirmed}
+          <Small>new confirmed</Small>
         </MainData>
         <MainData>
           {totals.confirmed}
