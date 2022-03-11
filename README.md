@@ -68,10 +68,13 @@ Finally, show the project through the browser with this command:
 - Twiter:   [@Daivhy](https://twitter.com/Daivhy)
 - LinkedIn: [David Vergaray](https://www.linkedin.com/in/david-vergaray-almontes-051a11127/)
 
+## Acknowledgments
+
+[Original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) created by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) in Behance.
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./MIT.md) and [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
 
 ## Show your support
 
